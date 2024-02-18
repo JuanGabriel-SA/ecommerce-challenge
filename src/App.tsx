@@ -160,7 +160,8 @@ function App() {
             </span>
           </div>
 
-          <img ref={imageRef} className='w-[520px] xs:hidden md:block lg:rounded-xl cursor-pointer' src={`src/assets/images/image-product-${previewImage}.jpg`} onClick={() => setShowModalPreview(true)} />
+          <img ref={imageRef} className='w-[520px] xs:hidden md:block lg:rounded-xl cursor-pointer' 
+          src={`src/assets/images/image-product-${previewImage}.jpg`} onClick={() => setShowModalPreview(true)} />
           <div className='thumbnails-section flex xs:hidden md:flex'>
             <div
               onClick={() => setPreviewImage(1)}

@@ -38,7 +38,7 @@ const Modal = ({ visible, trigger }: PreviewProps) => {
             onClick={e => closeModal(e)}
             className={`preview justify-center items-center ${visible ? 'flex opacity-1000' : 'hidden opacity-0'}`}>
             <div className='preview-content flex flex-col justify-center'>
-                <span onClick={e => trigger(false)} className="close-icon max-w-8 ml-auto mb-3 mr-[40px] cursor-pointer transition-colors">
+                <span onClick={() => trigger(false)} className="close-icon max-w-8 ml-auto mb-3 mr-[40px] cursor-pointer transition-colors">
                     <IoCloseSharp size={30} />
                 </span>
                 <div className="image-section flex justify-center items-center">
