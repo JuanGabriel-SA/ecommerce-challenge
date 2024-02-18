@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Solução para a seção interativa de comentários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é uma solução para o [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)
 
-Currently, two official plugins are available:
+## Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### O Desafio
 
-## Expanding the ESLint configuration
+Os usuários devem ser capazes de:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Visualizar o layout otimizado para o site, dependendo do tamanho da tela do dispositivo.
+- Ver estados de hover para todos os elementos interativos na página
+- Abrir uma galeria de lightbox ao clicar na grande imagem do produto.
+- Alternar a grande imagem do produto ao clicar nas miniaturas pequenas.
+- Adicionar itens ao carrinho.
+- Visualizar o carrinho e remover itens dele.
 
-- Configure the top-level `parserOptions` property like this:
+### Imagens
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![screenshot](./src/assets/screenshots/01.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![screenshot](./src/assets/screenshots/02.png)
+
+### Links
+
+- URL da Solução: [Add solution URL here](https://your-solution-url.com)
+- URL do Site Ao Vivo: [Add live site URL here](https://your-live-site-url.com)
+
+## Meu processo
+
+### Desenvolvido com
+
+- Marcação HTML5 Semântica
+- Propriedades personalizadas CSS
+- Flexbox
+- Tailwind css
+- [React](https://reactjs.org/) - React com Typescript
+
+### O que aprendi
+
+#### Tailwind CSS
+
+Foi o meu primeiro contato com uma biblioteca CSS, e achei extremamente útil as funcionalidades da tecnologia. As classes utilitárias torna o processo de desenvolvimento muito mais rápido, além de tornar o arquivo 
+de estilos menos sobrecarregado. O processo de tornar o design responsivo também ficou muito mais simples e ágil.
+
+### Recursos úteis
+
+- [Curso de Tailwind CSS: estilizando a sua página com classes utilitárias ](https://cursos.alura.com.br/course/tailwind-css-estilizando-pagina-classes-utilitarias)
+
+## Autor
+
+- Linkedin - [@juan-gabriel-sa](https://www.linkedin.com/in/juan-gabriel-sa/)
