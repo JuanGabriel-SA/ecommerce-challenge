@@ -47,7 +47,7 @@ const Modal = ({ visible, trigger }: PreviewProps) => {
                         onClick={() => prevElement()}>
                         <IoIosArrowBack />
                     </span>
-                    <img ref={imageRef} className='max-w-xl rounded-2xl transition-all' src={`src/assets/images/image-product-${previewImage}.jpg`} />
+                    <img ref={imageRef} className='max-w-xl rounded-2xl transition-all' src={`images/image-product-${previewImage}.jpg`} />
                     <span
                         className='flex justify-center items-center ml-[-20px] cursor-pointer'
                         onClick={() => nextElement()}>

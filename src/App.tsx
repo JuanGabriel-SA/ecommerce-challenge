@@ -15,12 +15,13 @@ function App() {
   const [itemQnt, setItemQnt] = useState<number>(0);
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const [showItemsCart, setShowItemsCart] = useState<boolean>(false);
-  const [imageRef, animate] = useAnimate();
+  const [imageRef, animatePreview] = useAnimate();
 
   useEffect(() => {
-    animate(imageRef.current, {
+    animatePreview(imageRef.current, {
       opacity: [0, 1]
-    })
+    });
+
   }, [previewImage])
 
   return (
@@ -152,7 +153,10 @@ function App() {
               onClick={() => previewImage > 1 && setPreviewImage(prev => prev - 1)}>
               <IoIosArrowBack />
             </span>
-            <img ref={imageRef} className='w-full' src={`src/assets/images/image-product-${previewImage}.jpg`} />
+            <img
+              ref={imageRef}
+              className='w-full' 
+              src={`images/image-product-${previewImage}.jpg`} />
             <span
               className='flex z-10 justify-center items-center ml-[-40px] cursor-pointer relative right-0'
               onClick={() => previewImage < 4 && setPreviewImage(prev => prev + 1)}>
@@ -160,8 +164,10 @@ function App() {
             </span>
           </div>
 
-          <img ref={imageRef} className='w-[520px] xs:hidden md:block lg:rounded-xl cursor-pointer' 
-          src={`src/assets/images/image-product-${previewImage}.jpg`} onClick={() => setShowModalPreview(true)} />
+          <img
+            ref={imageRef}
+            className='w-[520px] xs:hidden md:block lg:rounded-xl cursor-pointer'
+            src={`images/image-product-${previewImage}.jpg`} onClick={() => setShowModalPreview(true)} />
           <div className='thumbnails-section flex xs:hidden md:flex'>
             <div
               onClick={() => setPreviewImage(1)}
