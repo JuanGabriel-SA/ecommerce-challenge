@@ -24,7 +24,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da Solução: [Front-end Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwind-css-a6ET6WK3Br)
-- URL do Site Ao Vivo: [Vercel](https://ecommerce-challenger-nogq.vercel.app/)
+- URL do Site Ao Vivo: [Vercel](https://ecommerce-challenge-nogq.vercel.app/)
 
 ## Meu processo
 
